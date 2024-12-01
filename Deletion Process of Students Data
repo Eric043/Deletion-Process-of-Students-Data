@@ -1,0 +1,19 @@
+ 
+
+Steps of Deletion Process of Students Data
+
+Go to Profile Screen, User can see "Delete Profile" Button
+
+When the user clicks the "Delete Profile" button, initiate the deletion process.
+This triggers the confirmation dialog, asking the user to confirm the action.
+
+Prompt the user with a dialog box that asks, “Are you sure you want to delete your profile? This action cannot be undone.”
+This confirmation helps prevent accidental deletion.
+
+Sign Out the User
+
+After both the profile picture and inforamtion record are deleted, log the user out.
+
+Redirect to Login Screen
+
+Redirect the user to the login screen to finalize the logout and deletion process.
